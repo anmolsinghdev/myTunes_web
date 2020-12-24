@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.l-heading {
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: #666060;
+  padding: 1rem 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0rem 0.2rem;
+}
+
+.navbar a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.showcase {
+  background: url(https://source.unsplash.com/HXUlx1McLdc/1600x900) no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5;
+  overflow: hidden;
+  padding: 0rem 10rem;
+}
+
+.showcase p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.showcase h3 {
+  font-size: 4rem;
+}
+
+#showcase-2 {
+  background-color: #9e9c9c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5rem;
+  padding: 0rem 10rem;
+  justify-content: center;
+  color: white;
+}
+
+#showcase-2 h3 {
+  padding: 1rem 0rem;
+  font-size: 4rem;
+}
+
+#showcase-2 h3:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#showcase-2 h4 {
+  margin: 1rem 0rem;
+  font-size: 2rem;
+}
+
+#showcase-2 button {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #db4e4e;
+  font-weight: bold;
+  margin: 1.5rem 0rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px #706e6e;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+#showcase-2 button:hover {
+  box-shadow: 0px 5px 10px #585656;
+}
+
+#showcase-2 p {
+  font-size: 1.1rem;
+}
+
+#showcase-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d4d4;
+  height: 100vh;
+  padding: 0rem 10rem;
+}
+
+#showcase-3 h3 {
+  font-size: 4rem;
+  padding: 5rem 0rem;
+  cursor: pointer;
+}
+
+#showcase-3 h3:hover {
+  color: white;
+}
+
+#showcase-3 p {
+  font-size: 1.3rem;
+  color: #423d3d;
+}
+
+#showcase-3 button {
+  background-color: blue;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px #999292;
+}
+
+#showcase-3 button:hover {
+  box-shadow: 0px 5px 10px #504d4d;
+}
+
+#showcase-4 {
+  height: 100vh;
+  background: url(https://source.unsplash.com/LIZgoUJy8hE/1600x900);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 15rem;
+}
+
+#showcase-4 h3 {
+  font-size: 3rem;
+}
+
+#showcase-4 h3:hover {
+  color: #d6d2d2;
+  cursor: pointer;
+}
+
+#showcase-4 p {
+  margin: 2rem 0rem;
+  line-height: 2;
+}
+
+#gift-card {
+  display: flex;
+  gap: 3rem;
+}
+
+#gift-card .img img {
+  width: 100%;
+}
+
+#gift-card .content {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+  padding: 3rem 3rem;
+  gap: 1rem;
+}
+
+#gift-card .content h3 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+#gift-card .content .hor-line {
+  display: inline-block;
+  height: 1px;
+  background-color: black;
+  width: 100%;
+}
+
+#gift-card .content .fa-chevron-right {
+  padding-right: 0.5rem;
+}
+
+#gift-card .content .active {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#gift-card .content .active:hover {
+  text-decoration: underline;
+}
+
+.footer-showcase {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  padding: 2rem 0rem;
+  background-color: #615b5b;
+  color: white;
+}
+
+.footer-showcase h3 {
+  line-height: 0.5;
+}
+
+.footer-showcase .hor-line {
+  display: inline-block;
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.footer-showcase ul {
+  padding-top: 0.7rem;
+}
+
+.footer-showcase li {
+  list-style: none;
+}
+
+.footer-showcase li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-showcase li a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav {
+  background-color: #4d4848;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*# sourceMappingURL=stylesheet.css.map */
