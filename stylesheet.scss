@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 //variable declare
 
 $navbgcolor: rgb(102, 96, 96);
@@ -153,7 +154,7 @@ body {
 }
 #showcase-4 {
   height: 100vh;
-  background: url(https://source.unsplash.com/LIZgoUJy8hE/1600x900);
+  background: url(https://source.unsplash.com/LIZgoUJy8hE/1600x900) no-repeat;
   color: white;
   display: flex;
   justify-content: center;
