@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  // scroll-behavior: smooth;
 }
 
 //variable declare
@@ -13,6 +15,11 @@ $mainfont: "Montserrat", sans-serif;
 body {
   font-family: $mainfont;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 .l-heading {
   font-size: 2rem;
 }
@@ -154,7 +161,8 @@ body {
 }
 #showcase-4 {
   height: 100vh;
-  background: url(https://source.unsplash.com/LIZgoUJy8hE/1600x900) no-repeat;
+  background: url("https://source.unsplash.com/LIZgoUJy8hE/1600x900") no-repeat
+    center center/cover;
   color: white;
   display: flex;
   justify-content: center;
