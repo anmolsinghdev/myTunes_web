@@ -393,3 +393,29 @@ html {
     }
   }
 }
+
+@media (max-width: 542px) {
+  .showcase {
+    & h3 {
+      padding-top: 2rem;
+    }
+  }
+
+  .footer-showcase {
+    & h3 {
+      padding-left: 1rem;
+    }
+
+    & ul {
+      padding-left: 1rem;
+    }
+  }
+}
+@media (max-width: 510px) {
+  .showcase {
+    & h3 {
+      font-size: 2rem;
+      padding-top: 3rem;
+    }
+  }
+}
