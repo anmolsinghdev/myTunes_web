@@ -367,4 +367,25 @@ html {
     display: flex;
   }
 }
+
+@media (max-width: 766px) {
+  .showcase {
+    padding: 0rem 2rem;
+  }
+  #showcase-2 {
+    padding: 2rem 2rem;
+  }
+  #showcase-3 {
+    padding: 1rem 2rem;
+  }
+  #showcase-4 {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 707px) {
+  .footer-showcase h3 {
+    line-height: 1.2;
+  }
+}
 /*# sourceMappingURL=stylesheet.css.map */
