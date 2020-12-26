@@ -348,7 +348,9 @@ html {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+  }
+  .footer-showcase h3 {
+    padding-left: 1rem;
   }
   .footer-showcase .hor-line {
     margin: 1rem 0rem;
@@ -356,6 +358,7 @@ html {
   .footer-showcase ul {
     margin: -0.5rem 0rem;
     line-height: 1.5;
+    padding-left: 1rem;
   }
   .footer-nav {
     height: 7rem;

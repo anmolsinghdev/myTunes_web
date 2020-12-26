@@ -345,7 +345,10 @@ html {
       width: 100%;
       display: flex;
       flex-direction: column;
-      align-items: center;
+    }
+
+    & h3 {
+      padding-left: 1rem;
     }
 
     .hor-line {
@@ -355,6 +358,7 @@ html {
     & ul {
       margin: -0.5rem 0rem;
       line-height: 1.5;
+      padding-left: 1rem;
     }
   }
 
